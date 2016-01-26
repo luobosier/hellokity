@@ -15,6 +15,7 @@
 		50C2DE821C57726A004AA4D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C2DE811C57726A004AA4D1 /* Images.xcassets */; };
 		50C2DE851C57726A004AA4D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50C2DE831C57726A004AA4D1 /* LaunchScreen.xib */; };
 		50C2DE911C57726A004AA4D1 /* github1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C2DE901C57726A004AA4D1 /* github1Tests.m */; };
+		B91750361C5777A700B275F4 /* DaGeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B91750351C5777A700B275F4 /* DaGeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		50C2DE8A1C57726A004AA4D1 /* github1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = github1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C2DE8F1C57726A004AA4D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50C2DE901C57726A004AA4D1 /* github1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = github1Tests.m; sourceTree = "<group>"; };
+		B91750341C5777A700B275F4 /* DaGeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaGeViewController.h; sourceTree = "<group>"; };
+		B91750351C5777A700B275F4 /* DaGeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaGeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				50C2DE7C1C57726A004AA4D1 /* ViewController.m */,
 				4063B43D1C57754300B7B82E /* MainViewController.h */,
 				4063B43E1C57754300B7B82E /* MainViewController.m */,
+				B91750341C5777A700B275F4 /* DaGeViewController.h */,
+				B91750351C5777A700B275F4 /* DaGeViewController.m */,
 				50C2DE7E1C57726A004AA4D1 /* Main.storyboard */,
 				50C2DE811C57726A004AA4D1 /* Images.xcassets */,
 				50C2DE831C57726A004AA4D1 /* LaunchScreen.xib */,
@@ -226,6 +231,7 @@
 			files = (
 				50C2DE7D1C57726A004AA4D1 /* ViewController.m in Sources */,
 				50C2DE7A1C57726A004AA4D1 /* AppDelegate.m in Sources */,
+				B91750361C5777A700B275F4 /* DaGeViewController.m in Sources */,
 				50C2DE771C57726A004AA4D1 /* main.m in Sources */,
 				4063B43F1C57754300B7B82E /* MainViewController.m in Sources */,
 			);
