@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4063B43F1C57754300B7B82E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4063B43E1C57754300B7B82E /* MainViewController.m */; };
 		50C2DE771C57726A004AA4D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C2DE761C57726A004AA4D1 /* main.m */; };
 		50C2DE7A1C57726A004AA4D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C2DE791C57726A004AA4D1 /* AppDelegate.m */; };
 		50C2DE7D1C57726A004AA4D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C2DE7C1C57726A004AA4D1 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4063B43D1C57754300B7B82E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4063B43E1C57754300B7B82E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		50C2DE711C57726A004AA4D1 /* github1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = github1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C2DE751C57726A004AA4D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50C2DE761C57726A004AA4D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				50C2DE791C57726A004AA4D1 /* AppDelegate.m */,
 				50C2DE7B1C57726A004AA4D1 /* ViewController.h */,
 				50C2DE7C1C57726A004AA4D1 /* ViewController.m */,
+				4063B43D1C57754300B7B82E /* MainViewController.h */,
+				4063B43E1C57754300B7B82E /* MainViewController.m */,
 				50C2DE7E1C57726A004AA4D1 /* Main.storyboard */,
 				50C2DE811C57726A004AA4D1 /* Images.xcassets */,
 				50C2DE831C57726A004AA4D1 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				50C2DE7D1C57726A004AA4D1 /* ViewController.m in Sources */,
 				50C2DE7A1C57726A004AA4D1 /* AppDelegate.m in Sources */,
 				50C2DE771C57726A004AA4D1 /* main.m in Sources */,
+				4063B43F1C57754300B7B82E /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +424,7 @@
 				50C2DE961C57726A004AA4D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50C2DE971C57726A004AA4D1 /* Build configuration list for PBXNativeTarget "github1Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				50C2DE991C57726A004AA4D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
